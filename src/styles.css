@@ -31,3 +31,29 @@ body {
   background-color: var(--primary-color);
   border-radius: 18px;
 }
+
+input[type="text"],
+input[type="email"] {
+  height: 60px;
+  padding-left: 20px;
+  font-size: 13px;
+  width: 100%;
+}
+
+.btn-theme {
+  height: 58px;
+  border: none;
+  font-size: 13px;
+  font-weight: bold;
+  background-color: var(--primary-color) !important;
+  color: white !important;
+}
+
+.bg-seconday-theme {
+  background-color: var(--seconday-color);
+  border-radius: 9px;
+}
+
+.text-theme-primary {
+  color: var(--primary-color);
+}

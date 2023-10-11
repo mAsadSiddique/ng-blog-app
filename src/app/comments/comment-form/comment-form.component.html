@@ -1,1 +1,31 @@
-<p>comment-form works!</p>
+<div class="card my-5 shadow-effect">
+  <div class="card-body">
+    <h4>Leave a Comment</h4>
+    <p>You can leave a comment using this comment form</p>
+
+    <form action="">
+      <div class="form-group my-2">
+        <label class="my-1" for="userName">Name</label>
+        <input
+          name="userName"
+          type="text"
+          class="form-control"
+          placeholder="Please enter your name"
+        />
+      </div>
+
+      <div class="form-group my-2">
+        <label class="my-1" for="comment">Comment</label>
+        <textarea
+          name="comment"
+          cols="30"
+          rows="10"
+          class="form-control"
+          placeholder="Add your comment here"
+        ></textarea>
+      </div>
+
+      <button class="btn btn-info btn-theme my-2">Add a comment</button>
+    </form>
+  </div>
+</div>
